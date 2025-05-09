@@ -1,0 +1,37 @@
+name: maxplay_video_player
+description: "A simple video player app that allows users to play videos from their device and share them."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  permission_handler: ^12.0.0+1
+  video_player: ^2.9.5
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.1
+  google_mobile_ads: ^6.0.0
+  device_info_plus: ^11.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpg"
+
+
+flutter:
+  uses-material-design: true
+
+
